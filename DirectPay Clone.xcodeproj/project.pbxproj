@@ -99,12 +99,13 @@
 		35FEBD6A2A1DE328008F8B9B /* DirectPay Clone */ = {
 			isa = PBXGroup;
 			children = (
-				35FEBD6B2A1DE328008F8B9B /* AppDelegate.swift */,
-				35FEBD6D2A1DE328008F8B9B /* SceneDelegate.swift */,
-				35FEBD6F2A1DE328008F8B9B /* ViewController.swift */,
-				35FEBD712A1DE328008F8B9B /* Main.storyboard */,
-				35FEBD742A1DE329008F8B9B /* Assets.xcassets */,
-				35FEBD762A1DE329008F8B9B /* LaunchScreen.storyboard */,
+				35FEBDB52A1DE4CF008F8B9B /* Application */,
+				35FEBDB72A1DE4D3008F8B9B /* Constants */,
+				35FEBDB62A1DE4D1008F8B9B /* Extensions */,
+				35FEBDB82A1DE4D5008F8B9B /* Helper */,
+				35FEBDBB2A1DE52D008F8B9B /* Resources */,
+				35FEBDBA2A1DE4DD008F8B9B /* Storyboard */,
+				35FEBDB92A1DE4D7008F8B9B /* Screens */,
 				35FEBD792A1DE329008F8B9B /* Info.plist */,
 			);
 			path = "DirectPay Clone";
@@ -125,6 +126,61 @@
 				35FEBD8E2A1DE32A008F8B9B /* DirectPay_CloneUITestsLaunchTests.swift */,
 			);
 			path = "DirectPay CloneUITests";
+			sourceTree = "<group>";
+		};
+		35FEBDB52A1DE4CF008F8B9B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				35FEBD6B2A1DE328008F8B9B /* AppDelegate.swift */,
+				35FEBD6D2A1DE328008F8B9B /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		35FEBDB62A1DE4D1008F8B9B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		35FEBDB72A1DE4D3008F8B9B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		35FEBDB82A1DE4D5008F8B9B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		35FEBDB92A1DE4D7008F8B9B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		35FEBDBA2A1DE4DD008F8B9B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				35FEBD6F2A1DE328008F8B9B /* ViewController.swift */,
+				35FEBD712A1DE328008F8B9B /* Main.storyboard */,
+				35FEBD762A1DE329008F8B9B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		35FEBDBB2A1DE52D008F8B9B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				35FEBD742A1DE329008F8B9B /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,8 +498,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,9 +507,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hamzaahmedshad.DirectPay-Clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -469,8 +528,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,9 +537,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hamzaahmedshad.DirectPay-Clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
