@@ -13,7 +13,6 @@
 		35C369C22A1E942700ABD8DF /* UserInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35C369C02A1E942700ABD8DF /* UserInfoTableViewCell.xib */; };
 		35C369C52A1F3BBF00ABD8DF /* RegistrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C369C42A1F3BBF00ABD8DF /* RegistrationModel.swift */; };
 		35FEBD6C2A1DE328008F8B9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FEBD6B2A1DE328008F8B9B /* AppDelegate.swift */; };
-		35FEBD6E2A1DE328008F8B9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FEBD6D2A1DE328008F8B9B /* SceneDelegate.swift */; };
 		35FEBD702A1DE328008F8B9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FEBD6F2A1DE328008F8B9B /* ViewController.swift */; };
 		35FEBD732A1DE328008F8B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FEBD712A1DE328008F8B9B /* Main.storyboard */; };
 		35FEBD752A1DE329008F8B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35FEBD742A1DE329008F8B9B /* Assets.xcassets */; };
@@ -48,7 +47,6 @@
 		35C369C42A1F3BBF00ABD8DF /* RegistrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationModel.swift; sourceTree = "<group>"; };
 		35FEBD682A1DE328008F8B9B /* DirectPay Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DirectPay Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FEBD6B2A1DE328008F8B9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35FEBD6D2A1DE328008F8B9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		35FEBD6F2A1DE328008F8B9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		35FEBD722A1DE328008F8B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35FEBD742A1DE329008F8B9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -157,7 +155,6 @@
 			isa = PBXGroup;
 			children = (
 				35FEBD6B2A1DE328008F8B9B /* AppDelegate.swift */,
-				35FEBD6D2A1DE328008F8B9B /* SceneDelegate.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -327,7 +324,6 @@
 				35FEBD6C2A1DE328008F8B9B /* AppDelegate.swift in Sources */,
 				35C369B02A1E2ABE00ABD8DF /* RegistrationViewController.swift in Sources */,
 				35C369C52A1F3BBF00ABD8DF /* RegistrationModel.swift in Sources */,
-				35FEBD6E2A1DE328008F8B9B /* SceneDelegate.swift in Sources */,
 				35C369BB2A1E4E2500ABD8DF /* TableViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
